@@ -62,32 +62,56 @@ ul.posts span {
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
-
-.site .header a {
+.site .content {
+  background-color:#ddd;
+  opacity:0.7;
+  margin:4px 0px 0px 0px;
+  border-radius: 12px 12px;
+  padding:8px;
+}
+.site .head {
+  margin:4px 0px 0px 0px;
+}
+.site .header  .navigator{
+  background-color: #888;
+  border-radius: 12px 12px;
+  height: 2em;
+  margin:4px 0px 4px 0px;
+  padding:0px 8px 0px 8px;
+  vertical-align:middle;
+  line-height:30px;
+  height:30px;
+}
+.site .header .navigator a {
   font-weight: bold;
   text-decoration: none;
 }
 
-.site .header h1.title {
+.site .header .navigator h1.title {
   display: inline-block;
   margin-bottom: 2em;
 }
 
-.site .header h1.title a {
+.site .header .navigator h1.title a {
   color: #a00;
 }
 
-.site .header h1.title a:hover {
-  color: #000;
+.site .header .navigator h1.title a:hover {
+  color: #f00;
 }
 
-.site .header a.extra {
+.site .header .navigator a.line {
+  color: #222;
+  margin-left: 1em;
+}
+
+.site .header .navigator a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.site .header a.extra:hover {
-  color: #000;
+.site .header .navigator a.extra:hover {
+  color: #f00;;
 }
 
 .site .meta {

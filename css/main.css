@@ -68,6 +68,8 @@ ul.posts span {
   margin:4px 0px 0px 0px;
   border-radius: 12px 12px;
   padding:8px;
+  width: 80%;
+  vertical-align:middle;
 }
 .site .head {
   margin:4px 0px 0px 0px;

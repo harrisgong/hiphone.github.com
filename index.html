@@ -5,6 +5,9 @@ title: Hiphone Site
 
 <div id="home">
   <h1>Blog Posts</h1>
+  <table>
+  <tr><td><a href="http://www.kuaidi100.com">快递</a></td></tr>
+  </table>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
